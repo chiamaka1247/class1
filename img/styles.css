@@ -1,0 +1,49 @@
+css
+body{
+    font-family: Arial, sans-serif;
+    margin:0%
+    background: #f2f2f2
+    color: #333;
+}
+
+header{
+    text-align: center;
+    padding: 2opx;
+    background: #333
+    color:white;
+}
+
+.dev-img{
+    width:250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+nav{
+    text.align: center;
+    background: #444;
+    padding: 10px;
+}
+
+nav a{
+    color:white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+section{
+    padding: 20px
+}
+
+form input, form button{
+    width: 100%;
+    padding: 1opx;
+    margin: 10px 0;
+}
+
+footer{
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 10px;
+}

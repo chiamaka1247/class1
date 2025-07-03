@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet"
+    href="style2.css">
+</head>
+<body>
+
+    <!--Navigation-->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+
+    <!--Hero Section-->
+    <section id="home" class="hero">
+        <div class="hero-text">
+        <h1>Welcome to My HomePage</h1>    
+        </div>
+    </section>
+
+    <!--Background Repeat Text Section-->
+    <section class="bg-text">
+        <p>This is a section with background repeat pattern</p>
+    </section>
+
+    <!--Picture Section-->
+    <section class="pictures"
+    id="Projects">
+<h2>My Pictures</h2>
+<img src="img/ammy pics.jpg"
+alt="pic1">
+<img src="img/ammy pics2.jpg"
+alt="pic2">
+</section>
+
+<!--Favorites with Image Mapping-->
+<section class="favorites">
+    <h2>My Favorite Item</h2>
+    <img src="img/phone.jpg"
+    usemap="#phone" alt="Phone"
+    width="400">
+    <map name="phonemap">
+      <area shape="rect"
+      coords="0,200,200,400"
+      href="#phone" alt="Phone">
+
+      <img src="img/book.jpg"
+    usemap="#book" alt="Book"
+    width="400">
+     <area shape="rect"
+      coords="200,0,400,200"
+      href="#book" alt="Book">
+
+      <img src="img/cap.jpg"
+    usemap="#cap" alt="Cap"
+    width="400">
+     <area shape="rect"
+      coords="0,0,200,200"
+      href="#cap" alt="Cap">
+      
+    <img src="img/shoe.jpg"
+    usemap="#shoe" alt="Shoe"
+    width="400">
+     <area shape="rect"
+      coords="200,200,400,400"
+      href="#shoe" alt="Shoe">
+    </map>
+</section>
+
+ <!--Section the map link jump to
+    -->
+    <section
+    id="phone"><h3>Phone</h3><p>Info about phone</p></section>
+       <section
+    id="book"><h3>Book</h3><p>Info about book</p></section>
+      <section
+    id="cap"><h3>Cap</h3><p>Info about cap</p></section>
+      <section
+    id="shoe"><h3>Shoe</h3><p>Info about shoe</p></section>
+
+    <!--About Section-->
+    <section id="about">
+      <h2>About Me</h2>
+    <p> I am a unique individual with a world interests,experiences, and aspirations to share.<br>
+        I'm on a personal journey through life,seeking to learn,grow, and connect with others in this vast,
+         diverse world.
+        <br><br>I love nature.</p>
+    </section>
+
+</body>
+</html>

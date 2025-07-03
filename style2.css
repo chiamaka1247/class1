@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    font-family: Arial,sans-serif;
+}
+
+/*Navigation*/
+nav{
+    background: #222;
+    padding: 10px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*Hero*/
+.hero{
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero text h1{
+    color: white;
+    background: rgba(0,0,0,0.6);
+    padding: 10px 20px;
+}
+
+/*Repeating background text section*/
+.bg-text{
+    background-image: url(img/background.jpg);
+    background-repeat: repeat;
+    padding: 40px;
+    text-align: center;
+    color: #333;
+}
+
+/*Pictures section*/
+.pictures{
+    text-align: center;
+    padding: 30px;
+}
+.pictures img{
+    width: 150px;
+    margin: 10px;
+}
+
+/*Favorites*/
+.favorites{
+    text-align: center;
+    padding: 30px;
+}
+
+/*Map-linked section*/
+section[id]{
+    padding: 30px;
+    margin: 10px;
+    background: #f4f4f4;
+}

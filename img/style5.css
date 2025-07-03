@@ -1,0 +1,27 @@
+/*ID selector for header*/
+#main-header{
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/*Class selector for multiple cards*/
+.card-container{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card{
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/*Reuse class*/
+.card-title{
+    color: #0077cc;
+}

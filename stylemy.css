@@ -1,0 +1,110 @@
+css
+. {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial,sans-serif;
+    background: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background: #ddd;
+    padding: 15px 20px;
+}
+
+.nav-links a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.popup-btn{
+    background: #4285f4;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 3;
+}
+
+#toggle-popup:checked
+~.popup-panel {
+    right: 0;
+    opacity: 1;
+    z-index: 2;
+}
+
+.popup-panel{
+    position: fixed;
+    top: 60px;
+    right: -300px;
+    width: 250px;
+    background: #333;
+    color: #fff;
+    padding:20px;
+    transition: 0.3s ease;
+    opacity: 0;
+    z-index: 2;
+}
+
+.my-search{
+    margin: 100px;
+    
+}
+
+.logo{
+    font-size: 64px;
+    color: #4285F4;
+    margin-bottom: 20px;
+}
+
+.search-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 36px;
+     padding: 0 12px;
+}
+
+.search-buttons{
+    margin-top: 20px;
+}
+
+.search-buttons button{
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+
+
+.search-btn{
+    display: flex;
+     align-items: center;
+     padding:12px;
+    
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #f2f2f2;
+    padding: 10px;
+    font-size: 14px;
+    color: #666;
+}

@@ -1,0 +1,41 @@
+.advanced-table {
+    width: 80%;
+    border-collapse:collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+}
+
+.advanced-table
+th,  .advanced-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.advanced-table tbody
+tr :nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.advanced-table tbody
+tr :hover {
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+.advanced-table th {
+    background-color: #333;
+}
+
+.task-list{
+    list-style: none;
+    padding: 0%;
+    font-size: 18px;
+}
+
+.task-list li {
+    margin: 10px 0;
+    padding: 8px 12px;
+    background: #e7f3ff;
+    border-left: 5px solid #2196F3;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <h1>Registration Form</h1> 
+ <form action="/submit_registration" method="post" 
+ style="width: 500px; border: 2px solid rgba(10, 7, 7, 0.822);
+ margin:50px;padding:70px; background: rgb(236, 235, 235);">
+   <fieldset style="margin:20px">
+       <legend> Personal information</legend>>
+       <label for="fname">First name:</label>
+       <input type="text" id="fname" name="fname" required>
+       <br><br>
+       <label for="lname">Last Name:</label>
+       <input type="text" id="lname" name="lname" required>
+       <br><br>
+       <label for="email">Email:</label>
+       <input type="email" name="email" id="email" required>
+       <br><br>
+       <label for="password">Password:</label>
+       <input type="password" id="password" name="password" reguired>
+    </fieldset>
+    <fieldset style="margin:20px">
+       <legend> Contact information</legend>
+       <label for="phone">phone number:</label>
+       <input type="tel" id="phone" name="phone">
+       <br><br>
+       <label for="country">Country:</label>
+        <select id="country" name="country">
+             <option value="usa">USA</option>
+             <option value="nigeria">Nigeria</option>
+             <option value="germany">Germany</option>
+             <option value="korea">Korea</option>
+             <option value="others">Others</option>
+        </select>
+    </fieldset>
+     <fieldset style="margin:20px">
+        <lengend>Additional information</lengend>
+        <label for="color">Color:</label>
+        <input type="color" name="color" id="color">
+        <br><br>
+        <label for="comment">Comment:</label>
+        <textarea id="comment" name="comment" rows="4" cols="30"></textarea>
+        <br><br>
+        <label for="subscribe">Subscribe to newsletter:</label>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+    </fieldset>
+        <button type="submit" style="margin:20px;">submit</button>
+    </form>
+</body>
+</html>
+<a href="//127.0.0.1:5500/iprecious.html">click</a>
+

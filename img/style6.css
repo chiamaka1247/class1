@@ -1,0 +1,62 @@
+/*ID selector for header*/
+#page-title{
+    color: navy;
+    text-align: center;
+    font-size: 36px;
+}
+
+/*Class selector */
+description{
+ color: #555;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;  
+}
+
+.box{
+    background-color: #f4f4f4;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+/*ID overrides class*/
+#featured-box{
+    background-color: #ffe0b3;
+    border: 2px solid orange;
+}
+
+/*Button class*/
+.btn{
+    background-color: teal;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: darkcyan;
+}
+
+.card-desc{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/*Class selector for button*/
+.btn{
+    padding: 8px 16px;
+    background: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*ID-specific styling*/
+#featured-card{
+    background: #ffe0b2;
+    border: 2px solid orange;
+}
